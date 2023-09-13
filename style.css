@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+body{
+    margin: 0%;
+    background-color: #61bdff;
+}
+
+/*
+PARTE DO CABEÇALHO:
+*/
+
+header{
+    background-image: linear-gradient(to top, #183d8d, #58aae6);
+    width: 100%;
+    margin-top: 0%;
+    font-family: 'Oswald';
+    color: white;
+}
+
+header > h1{
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 0%;
+    text-shadow: 2px 2px 5px black;
+}
+
+header > p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+nav{
+    margin-top: 45px;
+    margin-left: 10px;
+    padding-bottom: 12px;
+    text-shadow: 1px 1px 7px #58aae6;
+}
+
+nav > a{
+    padding: 6px;
+    text-decoration: none;
+    color: #58aae6;
+
+}
+
+a:hover{
+    transition: 0.4s;
+    background-color: #58aae6;
+    color: #183d8d;
+    border-radius: 7px;
+    text-shadow: 1px 1px 3px #183d8d;
+}
+
+/*
+PARTE DO CONTEÚDO PRINCIPAL:
+*/
+
+/*
+COMEÇO DO PRIMEIRO ASSUNTO (HISTORIA DO MASCOTE DO ANDROID)
+*/
+
+main{
+    min-width: 320px;
+    border-radius: 5px;
+    background-color: white;
+    width: 63%; 
+    height: 100%;
+    padding-top: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 10px #183d8d;
+    margin: auto;
+}
+
+.assunto1 > h1{
+    padding-top: 0%;
+    font-size: 35px;
+    text-align: center;
+    color: #183d8d;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.assunto1 > p{
+    text-indent: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+COMEÇO DO SEGUNDO ASSUNTO (A PRIMEIRA VERSÃO)
+*/
+
+.assunto2 > h2{
+    padding-top: 0%;
+    font-size: 25px;
+    text-align: left;
+    color: #183d8d;
+    font-family: 'Luckiest Guy', cursive;
+    background-color: #61bdff50;
+    border-radius: 5px;
+    text-indent: 10px;
+}
+
+.assunto2 > p{
+    text-indent: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cor{
+    color: #183d8d;
+    font-weight: bold
+}
+
+p > a{
+    text-decoration: none;
+    color: #183d8d;
+    font-weight: bold
+}
+
+/*
+COMEÇO DO TERCEIRO ASSUNTO (SURGE UM NOVO MASCOTE)
+*/
+
+.assunto3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.assunto3 > h2{
+    padding-top: 0%;
+    font-size: 25px;
+    text-align: left;
+    color: #183d8d;
+    font-family: 'Luckiest Guy', cursive;
+    background-color: #61bdff50;
+    border-radius: 5px;
+    text-indent: 10px;
+}
+
+.assunto3 > p{
+    text-indent: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.assunto3 > a{
+    text-decoration: none;
+    color: #183d8d;
+    font-weight: bold
+}
+
+div#imagem2{
+    text-align: center;
+}
+
+div#imagem3{
+    text-align: center;
+}
+
+/*
+PARTE DO VÍDEO SOBRE A EVOLUÇÃO DO ANDROID (YOUTUBE)
+*/
+
+.video{
+    box-shadow: 2px 2px 10px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #183d8d, #58aae6);
+    margin: 0px -10px 30px -10px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+/*
+PARTE DA CAIXA (QUER APRENDER MAIS?)
+*/
+
+.caixa{
+    background-color: #61bdffd3;
+    padding-bottom: 2px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px;
+}
+
+.caixa > h3{
+    border-radius: 5px;
+    margin-bottom: 1%;
+    background-color: #0095ff;
+    padding: 10px;
+    color: white;
+}
+
+.caixa > p{
+    text-indent: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+}
+
+ul.lista1{
+    list-style-type: '✔ ';
+}
+
+ul.lista2{
+    list-style-type: '✔ ';
+}
+
+ul{
+    padding-left: 3%;
+    display:inline-block;
+    padding-right: 200px;
+}
+
+.linha{
+    text-decoration: underline;
+}
+
+/*
+PARTE DO RODAPÉ
+*/
+
+footer{
+    background-color: #183d8d;
+    margin-top: 20px;
+    padding: 6px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #788091;
+    font-style: italic;
+    font-size: small;
+}
+
+footer > p{
+    margin: 0%;
+}
+
+.negrito{
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+}
+
+img{
+    width: 100%;
+}
+
+iframe{
+    width: 100%;
+}
